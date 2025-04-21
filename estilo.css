@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d49f8a;
+    font-family: "Ubuntu", sans-serif;
+    margin: 5%;
+    line-height: 1.1;
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(43, 34, 32, 0.918);
+}
+
+header{
+    text-align:justify;
+    color:rgb(95, 84, 37);
+    padding: 20px 0;
+    border-radius: 8px 8px 8px 0;
+    background-image: url('./img/foto-fondo.avif');
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header figure img {
+    border-radius: 90%;
+    border: 5px solid #4b1818;
+    box-shadow: 0px 0px 10px ;
+}
+
+header h1{
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+header h2{
+   font-size: 1.3em;
+   opacity: 0.7;
+}
+
+.container{
+    background-color: rgb(163, 114, 114);
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.contenedor_foto_perfil{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid #850b0b;
+    margin: 5%;
+    box-shadow: 0px 0px 20px rgba(218, 209, 208, 0.5);
+}
+
+.contenedor_foto_perfil img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cabecera{
+    position: relative;
+}
+.nombre_puesto{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+h3{
+    font-size: 1.9em;
+    margin-top: 2px;
+    color:rgb(151, 70, 50)
+}
+
+section{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+section hr{
+    border:0;
+    height: 2px;
+    background: #f57207;
+    margin: 10px 0;
+}
+
+.redes-sociales img {
+
+    width: 40px;
+
+    margin: 0 0%;
+
+}
